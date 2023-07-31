@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://t4.ftcdn.net/jpg/04/61/23/23/360_F_461232389_XCYvca9n9P437nm3FrCsEIapG4SrhufP.jpg");
+    background-position: center;
+    background-size: cover;
+}
+p{
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+}
+h1{
+    font-size: 50px;
+}
+
+
+
+#degree{
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+#form{
+    margin-top: 2rem;
+    width:560px;
+    
+}
+.formfield{
+    display: flex;
+    border-bottom: 2px solid orangered;
+    align-items: center;
+    
+}
+label{
+    font-size: 12px;
+    font-weight: 600;
+    color: blue;
+
+}
+input{
+    width:100%;
+    padding:0.5rem 1rem;
+    outline:none;
+    border:none;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 800;
+
+}
+button{
+    padding:0.5rem 1rem;
+    width:100%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    border:none;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    color:white;
+    
+    font-size: 20px;
+    font-weight: 400;
+}
